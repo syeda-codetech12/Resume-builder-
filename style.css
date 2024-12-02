@@ -1,0 +1,598 @@
+body{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: #003073;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+#mandatory-expression{
+    display: flex;
+    justify-content:end;
+}
+
+
+form{
+    width: 650px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    padding: 25px;
+    margin: auto;
+    background-color: #eef5fc;
+}
+
+
+fieldset{
+    border: 3px solid #450920;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+
+legend{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #450920;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    color: #450920;
+}
+
+
+
+
+#name, #title, #email, #phone, #socialHandles, #school, #degree, #grade, #skills, #position, #company, #duration, #name-forURL{
+    width: 600px;
+    height: 30px;
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+
+
+#startyear, #endyear{
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+textarea{
+    width: 600px;
+    border:2px solid #450920;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+.required{
+    position: relative;
+}
+
+.required::after{
+    color: red;
+    content: " * ";
+    font-size: 15px;
+    position: absolute;
+}
+
+button{
+    width: 100px;
+    background-color: #88abcc;
+    border:2px solid #003073;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'arial', 'sans-serif';
+    color: #450920;
+    margin-top: 5px;
+}
+
+
+button:hover{
+    background-color: #7eaccf;
+    box-shadow: 2px 3px 7px #003073;
+    cursor: pointer;
+}
+
+
+
+
+/* Styling CSS for Resume */
+#resume-container{
+     background-image: url(https://i.pinimg.com/564x/da/8d/ee/da8deed3ac11063620742e1135cf159a.jpg);  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    align-items: center;
+    max-width: 1500px;
+    width: 750px;
+    border:7px solid #450920;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    margin: auto;
+    padding: 40px;
+}
+
+#Resume-heading{
+    font-size: 65px;
+    font-weight: bolder;
+    color: #540b0e;
+    /* background-color: #005f73; */
+    /* border-radius: 6px; */
+    /* border: 4px solid #540b0e; */
+    margin-top: 0;
+    text-decoration: 3px double underline #450920 ;
+
+}
+
+h2{
+    color: #450920;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0;
+    margin: 5px;
+}
+
+
+
+.horizontalLine{
+    border-bottom: 1px solid #450920; 
+    width: 100%;
+    margin: 10px 0; 
+    box-shadow: 1px 2px 3px 1px #6d3234;
+}
+
+strong{
+    font-size: 35px;
+    font-family: 'serif','Times New Roman', 'Times';
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    display: block;
+}
+
+
+p{
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    font-size: 35px;
+}
+
+
+#userpic{
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    background-color: transparent;
+    position: relative;
+}
+
+
+#username{
+    border-radius: 5px;
+    color: #450920;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arial Narrow Bold', ' Arial ',  'sans-serif';
+    margin-bottom: 10px;
+}
+
+
+
+#usertitle{
+    text-align: center;
+    color: #450920;
+    font-size: 35px;
+    font-family: ' Arial ',  'sans-serif', 'Tahoma', 'Verdana';
+    text-transform: capitalize;
+    margin: 0;
+    display: block;
+}
+
+
+
+#shareable-link{
+    color: #003073;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+
+#shareable-link:hover{
+    color: #4f4d8f;
+}
+
+
+#downloads-sec{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    max-width: 1500px;
+    width: 650px;
+    /* height: 150px; */
+    border:7px solid #450920;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eef5fc;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+
+#download-pdf-btn, #copy-link-btn, #generate-link-btn{ 
+    border-radius: 10px;
+   font-size: 15px;
+   width: auto; 
+}
+
+
+
+@media only screen and (max-width: 391px) {
+    h1 {
+        font-size: 30px; 
+    }
+
+    #mandatory-expression{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    form {
+        width: 90%; 
+        padding: 10px; 
+        /* margin: 7px; */
+    }
+
+    fieldset {
+        padding: 8px;
+    }
+
+    legend {
+        font-size: 18px;
+    }
+
+    #name, #title, #email, #phone, #socialHandles, #school, #degree, #grade, #skills, #position, #company, #duration, 
+    textarea {
+        width: 95%; 
+        font-size: 14px;
+    }
+
+    #resume-container {
+        width: 95%; 
+        padding: 10px;
+    }
+
+    #Resume-heading {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px; 
+    }
+
+    strong, p {
+        font-size: 20px; 
+    }
+
+    #userpic {
+        width: 120px;
+        height: 120px; 
+    }
+
+    #username {
+        font-size: 35px; 
+    }
+
+    
+
+    #usertitle {
+        font-size: 18px; 
+    }
+
+    #downloads-sec {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #Bottom-sec{
+        margin-right: 36px;
+        padding: 10px;
+    }
+
+    #shareable-linksec{
+        width: 100%;
+    }
+
+    #shareable-link{
+        width: 100%; 
+        word-wrap: break-word;
+        font-size: 20px;
+ }
+
+    #name-forURL{
+        width: 260px;
+        height: 20px;
+    }
+
+    
+    button {
+        width: 35%;
+        font-size: 12px; 
+        display: block;
+    }
+
+    #section-container {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    #resumesection1, #resumesection2 {
+        width: 100%; 
+    }
+
+    #ResumeContainer{
+        margin-right: 20px;
+        padding: 10px;
+    }
+  
+}
+
+
+
+
+
+@media only screen and (min-width: 392px) and (max-width: 700px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    #mandatory-expression{
+        margin: 10px;
+        font-size: 17px;
+
+    }
+
+    form {
+        width: 90%; 
+        padding: 15px;
+        /* margin: 4px; */
+    }
+
+    fieldset {
+        padding: 10px;
+    }
+
+
+
+    legend {
+        font-size: 20px;
+    }
+
+
+
+    #name, #title, #email, #phone, #socialHandles, #school, #degree, #grade, #skills, #position, #company, #duration,
+    textarea {
+        width: 95%; 
+        }
+
+    #resume-container {
+        width: 95%; 
+        padding: 10px;
+    }
+
+    #Resume-heading {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    strong, p {
+        font-size: 25px;
+    }
+
+    #userpic {
+        width: 150px;
+        height: 150px;
+    }
+
+    #username {
+        font-size: 40px;
+    }
+
+
+    #usertitle {
+        font-size: 20px;
+    }
+
+    #downloads-sec {
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+    #Bottom-sec{
+        margin-right: 36px;
+        padding: 10px;
+    }
+
+
+    #shareable-linksec{
+        width: 100%;
+    }
+
+
+    #shareable-link{
+        width: 100%; 
+        word-wrap: break-word;
+        font-size: 20px;
+ }
+
+    #name-forURL{
+        width: 275px;
+        height: 20px;
+    }
+
+
+    button {
+        width: 35%;
+        font-size: 14px;
+        display: block;
+    }
+
+    #section-container {
+        flex-direction: column; 
+        gap: 15px;
+    }
+
+    #resumesection1, #resumesection2 {
+        width: 100%; 
+    }
+
+    #ResumeContainer{
+        margin-right: 20px;
+        padding: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 701px) and (max-width:1000px){
+    h1 {
+        font-size: 80px; 
+    }
+
+    #mandatory-expression{
+        margin: 10px;
+        font-size: 19px;
+    }
+
+    form {
+        width: 90%; 
+        padding: 25px; 
+        /* margin: 4px; */
+    }
+
+    fieldset {
+        padding: 25px; 
+    }
+
+    legend {
+        font-size: 30px; 
+    }
+
+
+    #name, #title, #email, #phone, #socialHandles, #school, #degree, #grade, #skills, #position, #company, #duration,
+    textarea {
+        width: 100%; 
+        font-size: 16px; 
+    }
+
+    #resume-container {
+        width: 95%; 
+        padding: 10px;
+    }
+
+    #Resume-heading {
+        font-size: 75px; 
+    }
+
+    h2 {
+        font-size: 55px; 
+    }
+
+    strong, p {
+        font-size: 40px; 
+    }
+
+    #userpic {
+        width: 350px;
+        height: 350px; 
+    }
+
+    #username {
+        font-size: 90px; 
+    }
+
+
+    #usertitle {
+        font-size: 40px; 
+    }
+
+    #downloads-sec {
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+
+    
+    #Bottom-sec{
+        margin-right: 36px;
+        padding: 10px;
+    }
+
+    
+    #shareable-linksec{
+        width: 100%;
+    }
+
+
+    #shareable-link{
+        width: 100%; 
+        word-wrap: break-word;
+        font-size: 20px;
+ }
+
+    #name-forURL{
+        width: 620px;
+        height: 25px;
+    }
+
+    button {
+        width: 30%;
+        font-size: 20px;
+        /* display: block; */
+    }
+
+    #section-container {
+        flex-direction: row; 
+        gap: 0px;
+    }
+
+    #resumesection1, #resumesection2 {
+        width: 45%; 
+    }
+
+    
+
+    #ResumeContainer {
+        margin-right: 30px; 
+        padding: 20px; 
+    }
+}

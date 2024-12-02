@@ -1,0 +1,79 @@
+.education-entry, .experience-entry {
+    font-size: 23px;
+    font-family: 'serif','Times New Roman', 'Times';
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    display: block;
+    color: black;
+} 
+
+
+
+.addelement{
+        margin: 0px 0px 8px 0px;
+        font-weight: normal;
+        padding: 0;
+        font-size: 35px;
+    }
+
+
+    .stylingline{
+        border-bottom: 0.35px solid #540b0e; 
+        width: 100%;
+        margin-bottom: 20px;
+        box-shadow: 0.1px 0.2px 0.5px 0.1px #53120e;
+    }
+
+
+    #section-container{
+    display: flex;
+    justify-content: space-between; /* Aligns the sections evenly across the space */
+    gap: 30px;
+    
+    }
+
+
+    #resumesection1,
+    #resumesection2 {
+        
+        display: inline-block; /* Display sections side by side */
+        vertical-align: top;    /* Align both sections at the top */
+        width: 80%;             /* Adjust width to make sure both fit */
+        margin-right: 2%;       /* Add space between the two sections */
+    }
+    
+    #resumesection2 {
+        margin-right: 0; /* Remove right margin for the last section */
+        width: 100%;
+    }
+    
+    /*Add padding for a cleaner look */
+    #resumesection1, #resumesection2 {
+        padding: 10px;
+    }
+    
+
+
+   
+
+
+
+
+
+
+    @media print {
+        body * {
+          visibility: hidden;
+        }
+        #resume-container, #resume-container * {
+          visibility: visible;
+        }
+        #resume-container {
+          position: absolute;
+          left: 10mm;
+          right: 30mm;
+          top: 20mm;
+          width: calc(100% - 60mm);
+        }
+      }
+      
